@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Free Bootstrap 4 Carousel">
+    <meta name="keywords" content="Bootstrap 4 Free Carousel, Free Slider, Bootstrap 4 Slider for freee, Free Bootstrap 4 Slider, Free HTML Slider">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Tecno Chile</title>
+
+    <!-- Bootstrap 4 Default CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <!-- Additional CSS -->
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+            <div class="container-fluid">
+                <div id="fecha" style="color: aliceblue;"></div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="float-right">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#nosotros">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#ventas">Ventas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacto">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color: aliceblue;"><i class="fas fa-shopping-cart"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br><br>
+
+    <!-- Contenido -->
+    <main>
+        <section class="py-4 mt-3">
+            <div class="encabeza">
+                <h1>Tecno Chile</h1>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <img src="/img/intro.avif" class="img-thumbnail" alt="Imagen de inicio">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h2>En Tecno Chile, encontrará todo lo necesario...</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam voluptas temporibus eum!
+                            Impedit,
+                            culpa porro maxime distinctio expedita obcaecati exercitationem necessitatibus est aliquid
+                            tempore vitae
+                            quo nam. Maxime, atque.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-4 mt-5" id="nosotros">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <img src="/img/nosotros.jpg" class="img-thumbnail" style="width: 75%;" alt="Foto del Perfil">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h2>Nosotros...</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ut culpa quia, sit nisi aperiam
+                            earum.
+                            Porro reiciendis nulla dicta quidem eligendi nihil aspernatur temporibus, quam maxime nam?
+                            Libero, ad?
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio corrupti vel deleniti quae error
+                            eveniet, laudantium, minima rerum libero explicabo quod! Libero illum eveniet harum voluptas
+                            numquam
+                            quibusdam sequi eum?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5" id="ventas">
+            <div class="container mt-5">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <hr>
+                        <div class="col-md-12">
+                            <div class="button-placement d-none d-sm-none d-md-block">
+                                <a class="btn btn-sm btn-success" href="#carouselExample" role="button" data-slide="prev"> <i class="fas fa-chevron-circle-left"></i> </a>
+                                <a class="btn btn-sm btn-success" href="#carouselExample" role="button" data-slide="next"> <i class="fas fa-chevron-circle-right"></i> </a>
+                            </div>
+                        </div>
+                        <div class="button-placement d-md-none d-lg-none d-xl-none">
+                            <a class="btn btn-sm btn-success" href="#carouselExampleMobile" role="button" data-slide="prev"> <i class="fas fa-chevron-circle-left"></i> </a>
+                            <a class="btn btn-sm btn-success" href="#carouselExampleMobile" role="button" data-slide="next"> <i class="fas fa-chevron-circle-right"></i> </a>
+                        </div>
+                    </div>
+                    <div id="carouselExample" class="carousel slide d-none d-sm-none d-md-block" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="product-block">
+                                            <img class="d-block w-100 foto" src="/img/huawei.jpg" alt="Product">
+                                            <small>Precio</small>
+                                            <p>$2000</p>
+                                            <button class="btn btn-outline-success AGREGA" type="button">Añadir al carro</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="product-block">
+                                            <img class="d-block w-100 foto" src="/img/xiaomi.webp" alt="Product">
+                                            <small>Precio</small>
+                                            <p>$3000</p>
+                                            <button class="btn btn-outline-success AGREGA" type="button">Añadir al carro</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="product-block">
+                                            <img class="d-block w-100 foto" src="/img/motorola.jpg" alt="Product">
+                                            <small>Precio</small>
+                                            <p>$200</p>
+                                            <button class="btn btn-outline-success AGREGA" type="button">Añadir al carro</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel Item 1 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="product-block">
+                                            <img class="d-block w-100 foto" src="/img/laptop1.jpg" alt="Product">
+                                            <small>Precio</small>
+                                            <p>$200</p>
+                                            <button class="btn btn-outline-success AGREGA" type="button">Añadir al carro</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="product-block">
+                                            <img class="d-block w-100 foto" src="/img/laptop2.jpg" alt="Product">
+                                            <small>Precio</small>
+                                            <p>$200</p>
+                                            <button class="btn btn-outline-success AGREGA" type="button">Añadir al carro</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="product-block">
+                                            <img class="d-block w-100 foto" src="/img/laptop3.webp" alt="Product">
+                                            <small>Precio</small>
+                                            <p>$200</p>
+                                            <button class="btn btn-outline-success AGREGA" type="button">Añadir al carro</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel Item 2 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="product-block">
+                                            <img class="d-block w-100 foto" src="/img/head1.jpg" alt="Product">
+                                            <small>Precio</small>
+                                            <p>$200</p>
+                                            <button class="btn btn-outline-success AGREGA" type="button">Añadir</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="product-block">
+                                            <img class="d-block w-100 foto" src="/img/head2.webp" alt="Product">
+                                            <small>Precio</small>
+                                            <p>$200</p>
+                                            <button class="btn btn-outline-success AGREGA" type="button">Añadir</button>
+                                               
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="product-block">
+                                            <img class="d-block w-100 foto" src="/img/head3.webp" alt="Product">
+                                            <small>Precio</small>
+                                            <p>$200</p>
+                                            <button class="btn btn-outline-success AGREGA" type="button">Añadir al carro</button>
+                                               
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel Item 3 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="product-block">
+                                            <img class="d-block w-100 foto" src="/img/psp.jpg" alt="Product">
+                                            <small>Precio</small>
+                                            <p>$200</p>
+                                            <button class="btn btn-outline-success AGREGA" type="button">Añadir al carro</button>
+                                                
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="product-block">
+                                            <img class="d-block w-100 foto" src="/img/ps4.jpg" alt="Product">
+                                            <small>Precio</small>
+                                            <p>$200</p>
+                                            <button class="btn btn-outline-success AGREGA" type="button">Añadir al carro</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="product-block">
+                                            <img class="d-block w-100 foto" src="/img/xbox.webp" alt="Product">
+                                            <small>Precio</small>
+                                            <p>$200</p>
+                                            <button class="btn btn-outline-success AGREGA" type="button">Añadir al carro</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carouselExampleMobile" class="carousel slide d-md-none d-lg-none d-xl-none" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="product-block">
+                                    <img class="d-block w-100" src="/img/huawei.jpg" alt="Product">
+                                    <small>Precio</small>
+                                    <p>$200</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <a class="btn btn-outline-success btn-sm" href="#">Añadir</a>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <a class="btn btn-outline-danger btn-sm" href="#">Detalles</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel Item 1 -->
+                            <div class="carousel-item">
+                                <div class="product-block">
+                                    <img class="d-block w-100" src="/img/xiaomi.webp" alt="Product">
+                                    <h4>Product 2</h4>
+                                    <small>Variant</small>
+                                    <p>$200</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <a class="btn btn-outline-success btn-sm" href="#">Añadir</a>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <a class="btn btn-outline-danger btn-sm" href="#">Detalles</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel Item 2 -->
+                            <div class="carousel-item">
+                                <div class="product-block">
+                                    <img class="d-block w-100" src="/img/motorola.jpg" alt="Product">
+                                    <h4>Product 3</h4>
+                                    <small>Variant</small>
+                                    <p>$200</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <a class="btn btn-sm btn-success" href="#">Añadir</a>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <a class="btn btn-outline-danger btn-sm" href="#">Detalles</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel Item 3 -->
+                            <div class="carousel-item">
+                                <div class="product-block">
+                                    <img class="d-block w-100" src="/img/laptop1.jpg" alt="Product">
+                                    <h4>Product 4</h4>
+                                    <small>Variant</small>
+                                    <p>$200</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <a class="btn btn-sm btn-success" href="#">Añadir</a>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <a class="btn btn-outline-danger btn-sm" href="#">Detalles</a>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                            <!-- Carousel Item 4 -->
+                            <div class="carousel-item">
+                                <div class="product-block">
+                                    <img class="d-block w-100" src="/img/laptop2.jpg" alt="Product">
+                                    <h4>Product 5</h4>
+                                    <small>Variant</small>
+                                    <p>$200</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <a class="btn btn-sm btn-success" href="#">Añadir</a>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <a class="btn btn-outline-danger btn-sm" href="#">Detalles</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel Item 5 -->
+                            <div class="carousel-item">
+                                <div class="product-block">
+                                    <img class="d-block w-100" src="/img/laptop3.webp" alt="Product">
+                                    <h4>Product 6</h4>
+                                    <small>Variant</small>
+                                    <p>$200</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <a class="btn btn-sm btn-success" href="#">Añadir</a>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <a class="btn btn-outline-danger btn-sm" href="#">Detalles</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel Item 6 -->
+                            <div class="carousel-item">
+                                <div class="product-block">
+                                    <img class="d-block w-100" src="/img/head1.jpg" alt="Product">
+                                    <h4>Product 7</h4>
+                                    <small>Variant</small>
+                                    <p>$200</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <a class="btn btn-sm btn-success" href="#">Añadir</a>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <a class="btn btn-outline-danger btn-sm" href="#">Detalles</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel Item 7 -->
+                            <div class="carousel-item">
+                                <div class="product-block">
+                                    <img class="d-block w-100" src="/img/head2.webp" alt="Product">
+                                    <h4>Product 8</h4>
+                                    <small>Variant</small>
+                                    <p>$200</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <a class="btn btn-sm btn-success" href="#">Añadir</a>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <a class="btn btn-outline-danger btn-sm" href="#">Detalles</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel Item 8 -->
+                            <div class="carousel-item">
+                                <div class="product-block">
+                                    <img class="d-block w-100" src="/img/head3.webp" alt="Product">
+                                    <h4>Product 9</h4>
+                                    <small>Variant</small>
+                                    <p>$200</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <a class="btn btn-sm btn-success" href="#">Añadir</a>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <a class="btn btn-outline-danger btn-sm" href="#">Detalles</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel Item 9 -->
+                            <div class="carousel-item">
+                                <div class="product-block">
+                                    <img class="d-block w-100" src="/img/psp.jpg" alt="Product">
+                                    <h4>Product 10</h4>
+                                    <small>Variant</small>
+                                    <p>$200</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <a class="btn btn-sm btn-success" href="#">Añadir</a>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <a class="btn btn-outline-danger btn-sm" href="#">Detalles</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel Item 10 -->
+                            <div class="carousel-item">
+                                <div class="product-block">
+                                    <img class="d-block w-100" src="/img/ps4.jpg" alt="Product">
+                                    <h4>Product 11</h4>
+                                    <small>Variant</small>
+                                    <p>$200</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <a class="btn btn-sm btn-success" href="#">Añadir</a>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <a class="btn btn-outline-danger btn-sm" href="#">Detalles</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel Item 11 -->
+                            <div class="carousel-item">
+                                <div class="product-block">
+                                    <img class="d-block w-100" src="/img/xbox.webp" alt="Product">
+                                    <h4>Product 12</h4>
+                                    <small>Variant</small>
+                                    <p>$200</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <a class="btn btn-sm btn-success" href="#">Añadir</a>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <a class="btn btn-outline-danger btn-sm" href="#">Detalles</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel Item 12 -->
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Row -->
+            </div>
+        </section>
+        <section class="mt-5" id="contacto">
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 section-heading text-center">
+                        <h2 class="to-animate" style="color:#c80c0f;">Mantengase en Contacto</h2>
+                    </div>
+                </div>
+                <div class="row row-bottom-padded-md">
+                    <div class="col-md-6 to-animate">
+                        <h3>Nuestras coordenadas</h3>
+                        <ul class="fh5co-contact-info">
+                            <li class="fh5co-contact-address">
+                                <i class="icon-home"></i>
+                                Arlegui 203, Ofc 601, <br>Viña del Mar, Chile
+                            </li>
+                            <li><i class="icon-phone"></i> (+56) 9 6915-8543</li>
+                            <li><i class="icon-phone"></i> (+56) 9 5451-7115</li>
+                            <li><i class="icon-envelope"></i>contacto@rbservicios.cl</li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-md-6 to-animate">
+                        <h3>Envíe sus consultas</h3>
+                        <form id="contact-form" name="contact-form">
+                            <div class="form-group" id="grupo__nombre">
+                                <label for="nombre" class="formulario__label">Nombre</label>
+                                <div class="formulario__grupo-input">
+                                    <input name="nombre" id="nombre" class="form-control" placeholder="Nombre" type="text" autocomplete="off">
+                                    <i class="formulario__validacion-estado icon-circle-cross"></i>
+                                </div>
+                                <p class="formulario__input-error">El nombre debe tener un mínimo de 4 caracteres y solo permite letras</p>
+                            </div>
+                            <div class="form-group" id="grupo__correo">
+                                <label for="correo" class="formulario__label">Correo Electronico</label>
+                                <div class="formulario__grupo-input">
+                                    <input name="correo" id="correo" class="form-control" placeholder="correo@correo.com" type="email" autocomplete="off">
+                                    <i class="formulario__validacion-estado icon-circle-cross"></i>
+                                </div>
+                                <p class="formulario__input-error">El correo debe tener un valor y formato válido</p>
+                            </div>
+                            <div class="form-group" id="grupo__phone">
+                                <label for="phone" class="formulario__label">Teléfono</label>
+                                <div class="formulario__grupo-input">
+                                    <input name="phone" id="phone" class="form-control" placeholder="Teléfono" type="text" autocomplete="off">
+                                    <i class="formulario__validacion-estado icon-circle-cross"></i>
+                                </div>
+                                <p class="formulario__input-error">El telefono debe tener al menos 9 digitos</p>
+                            </div>
+                            <div class="form-group" id="grupo__message">
+                                <label for="message" class="formulario__label">Mensaje</label>
+                                <div class="formulario__grupo-input">
+                                    <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Mensaje" autocomplete="off"></textarea>
+                                </div>
+                            </div>
+                            <div class="formulario__mensaje" id="formulario__mensaje">
+                                <p><i class="icon-warning"></i><b> Error: </b>
+                                 Por favor ingrese los campos</p>
+                            </div>
+                            <div class="form-group">
+                                <input class="btn btn-primary btn-lg" value="Enviar" type="submit">
+                                <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado con éxito</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer-->
+
+    <footer id="footer">
+		<div class="container" >
+			<span class="ir-arriba"><i class="fas fa-arrow-up"></i></span>
+			<div class="">
+				<div class="col-md-12 text-center">
+					<p>&copy; Tecno Chile. Diseñado por <strong>Reinaldo Blanco</strong><br></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<ul class="social social-circle">
+						<li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+						<li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+    <!-- End of Container -->
+
+    <!-- JQuery Plugin -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Bootstrap JQuery Plugin -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Additional Javascript -->
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/moment.js"></script>
+    <script>
+        
+        document.getElementById("fecha").innerHTML = moment().format('MMMM Do YYYY, h:mm:ss a');
+        
+        function add(p){
+            let ident = document.getElementById(p.id);
+            $(location).attr('href', 'http://127.0.0.1:5500/carro.html?id='+ ident.dataset.id);
+        }
+
+        $(document).ready(function(){
+            $('.ir-arriba').click(function(){
+                $('body, html').animate({
+                scrollTop: '0px'
+                },300);
+            });
+            $(window).scroll(function(){
+                if($(this).scrollTop() > 0){
+                $('.ir-arriba').slideDown(300);
+                }else{
+                $('.ir-arriba').slideUp(300);
+                };
+            });
+        });
+    </script>
+</body>
+</html>
+
